@@ -40,12 +40,12 @@ class LoginPage:
         self.sign_image_label.image = photo
         self.sign_image_label.place(x=620, y=75)
 
-        self.sign_in_label = Label(self.lgn_frame, text='Sign In', bg='white', fg='black',
+        self.sign_in_label = Label(self.lgn_frame, text='LOGIN', bg='white', fg='black',
                                    font=('verdana', 17, 'bold'))
         self.sign_in_label.place(x=650, y=240)
 
         # ================================ Username ============================ #
-        self.username_label = Label(self.lgn_frame, text='Username', bg='white', font=('yu gothic ui', 13, 'bold'),
+        self.username_label = Label(self.lgn_frame, text='Usuário', bg='white', font=('yu gothic ui', 13, 'bold'),
                                     fg='#4f4e4d')
         self.username_label.place(x=550, y=300)
 
@@ -64,7 +64,7 @@ class LoginPage:
         self.username_icon_label.place(x=550, y=332)
 
         # ================================ Password ============================ #
-        self.password_label = Label(self.lgn_frame, text='Password', bg='white', font=('yu gothic ui', 13, 'bold'),
+        self.password_label = Label(self.lgn_frame, text='Senha', bg='white', font=('yu gothic ui', 13, 'bold'),
                                     fg='#4f4e4d')
         self.password_label.place(x=550, y=380)
 
@@ -83,28 +83,28 @@ class LoginPage:
         self.password_icon_label.place(x=550, y=413)
 
         # ======================= Login Button ======================================== #
-        self.login = customtkinter.CTkButton(master=self.lgn_frame, text="LOGIN",
+        self.login = customtkinter.CTkButton(master=self.lgn_frame, text="ENTRAR",
                                              text_color='WHITE', width=300, height=32,
                                              text_font=('verdana', 12, 'bold'), border_width=0, corner_radius=8,
                                              cursor='hand2')
         self.login.place(x=550, y=460)
 
         # ======================================= Forgot Password ======================= #
-        self.forgot_button = Button(self.lgn_frame, text='Forgot Password ?',
+        self.forgot_button = Button(self.lgn_frame, text='Esqueceu a senha ?',
                                     font=('yu gothic ui', 13, 'bold underline'), fg='black', width=25, bd=0,
                                     bg='white', activebackground='white', cursor='hand2')
         self.forgot_button.place(x=580, y=510)
 
         # ============================== Sign Up ======================================#
-        self.sign_label = Label(self.lgn_frame, text='No account yet?', font=('yu gothic ui', 11, 'bold'),
+        self.sign_label = Label(self.lgn_frame, text='Não tem conta ?', font=('yu gothic ui', 10, 'bold'),
                                 background='white', fg='black')
-        self.sign_label.place(x=550, y=560)
+        self.sign_label.place(x=540, y=560)
 
-        self.signup_button = customtkinter.CTkButton(master=self.lgn_frame, text="SIGN UP",
+        self.signup_button = customtkinter.CTkButton(master=self.lgn_frame, text="CADASTRE-SE",
                                              text_color='WHITE', width=80, height=32,
                                              text_font=('verdana', 10, 'bold'), border_width=0, corner_radius=8,
                                              cursor='hand2')
-        self.signup_button.place(x=670, y=555)
+        self.signup_button.place(x=645, y=555)
 
 
         # ============================== Show/Hide Password =========================== #
