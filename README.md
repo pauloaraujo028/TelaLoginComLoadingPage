@@ -1,5 +1,6 @@
  # Tela de Login com LoadingPage.
  
+ [![teladelogin.png](https://i.postimg.cc/XJSgWhMJ/teladelogin.png)](https://postimg.cc/t1k6tB4Q)
 
  ## Documentação
  
